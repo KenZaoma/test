@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+}
+body {
+  background-image: linear-gradient(
+    rgb(237, 240, 241),
+    rgba(22, 23, 24, 0.418)
+  );
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: silver;
+}
+
+.header .logo {
+  padding: 0.7rem;
+  font-weight: 650;
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  margin-left: 10rem;
+}
+.nav {
+  margin-right: 1.5rem;
+}
+.nav a {
+  padding: 1rem;
+  font-weight: 650;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+.nav a:hover {
+  color: rgba(23, 26, 29, 0.404);
+}
+
+.sambutan {
+  font-weight: 350;
+  color: black;
+  margin-left: 5rem;
+  margin-top: 7rem;
+  font-size: 2rem;
+}
+.sambutan2{
+  margin-left: 5rem;
+  font-size: 1.4rem;
+}
+
+.logo{
+margin-left: 5rem;
+margin-top: 1rem;
+font-size: 2rem;
+}
+
+.logo :hover{
+  color:rgba(75, 68, 92, 0.712)
+}
